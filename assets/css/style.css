@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "MagicalStory.ttf";
+    src: url('../fonts/MagicalShadow.ttf');
+}
+
+@font-face{"Streetwear.otf"
+    src: url(../fonts/Streetwear.otf);
+}
+
+@font-face {
+    font-family: "texte";
+    src: url('../fonts/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+    font-family: "texte-degrade";
+    src: url('../fonts/KGEmpireofDirt.ttf');
+}
+@font-face{
+    font-family:"UndergroundNF.ttf" ;
+    src: url(../fonts/BackToSchool.ttf);
+}
+
+body{
+    background-color: #111;
+    font-family: "texte";
+}
+
+.header{
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+    background-position: right;
+    height: 500px;
+    padding: 0;
+
+
+}
+
+.header .degrade{
+    background-image: linear-gradient(90deg, black, transparent);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header .degrade h1{
+    font-size: 95px;
+    text-transform: capitalize;
+    color: gold;
+    font-family: "MagicalStory.ttf";
+}
+  
+
+
+.header .degrade p{
+    color: #eff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    max-width: 450px;
+    font-weight: 100s;
+    font-family: "texte-degrade";
+   
+}
+
+@media (max-width: 992px) {
+    .header{
+        background-image: url('../images/2.jpg');
+        background-position: right;
+    }
+    .header .degrade h1{
+        font-size: 45px;
+    }
+
+    .header .degrade{
+        padding: 0 15px;
+    }
+}
+
+
+.block-event{
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    font-family:"BackToSchool.ttf" ;
+
+margin-bottom: 20px;
+}
+
+.block-event:hover{
+    box-shadow: 0 0 5px gold;
+}
+
+.block-event .degrade{
+    background-image: linear-gradient(0deg, black, transparent);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.block-event .degrade h2{
+    color: #fff;
+    font-size: 22px;
+}
+
+.block-event .degrade div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block-event .degrade div i{
+    color: #666;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.block-event .degrade div span{
+    color: gold;
+}
+
+.categorie{
+    color: #fff;
+    font-size: 25px;
+    padding: 0px;
+    margin: 25px 0;
+}
