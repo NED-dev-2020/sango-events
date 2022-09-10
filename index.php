@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sango Events</title>
 
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
     <link rel="stylesheet" href="assets/bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/css/bootstrap.css">
